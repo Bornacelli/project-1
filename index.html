@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="shortcut icon" href="imagenes/logo-ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- inico -->
+    <header id="inicio">
+        <nav>
+            <a class="logo" href="index.html"><img src="imagenes/pagina-de-inicio.png" alt=""></a>
+            <input type="checkbox" id="check"/>
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acercademi">Acerca de mí</a></li>
+                <li><a href="#trabajos">Trabajos </a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="contenido">
+            <h1>
+                Laura Bornacelli
+            </h1>
+            <p>Soy Técnico en Programación de Software, actualmente estudiante de Análisis y Desarrollo de Software</p>
+            <button class="boton-cv"><a download="cv" href="cv.pdf">Descargar CV</a></button>
+        </div>
+    </header>
+
+
+     <!-- primera seccion "Acerca de mí" -->
+    <center>
+    <section id="acercademi" class="seccion-1">
+        <h1 class="titulo-acercademi">Acerca de mí</h1>
+        <div class="informacion">
+            <div class="contenedor-1">
+                <p>Mi nombre es Laura Bornacelli y tengo 18 años. Soy Tecnico en Programación de Software y actualmente me encuentro estudiando un Técnologo en Análisis y Desarrollo de Software en el SENA.</p>
+            </div>
+            <div class="contenedor-2">
+                <p>Me gusta el diseño web y me gustaria aprender como utilizar varios programas de diseño como Figma y Adobe XD</p>
+            </div>
+        </div>
+    </section>
+    </center>
+    
+
+
+    <!-- segunda seccion "Trabajos" -->
+
+    <section id="trabajos" class="seccion-2">
+        <h1 class="titulo-trabajos">Trabajos</h1>
+        <div class="tarjetas">
+            <div class="tarjeta-1">
+                <img src="imagenes/gestor-gastos-img.jpg" alt="">
+                <h4>Gestor de gastos</h4>
+                <p>La función principal de un gestor de gastos es registrar todas tus transacciones financieras. Esto incluye ingresos como salarios, bonificaciones u otros ingresos, así como gastos como compras, facturas, pagos de servicios públicos, etc.</p>
+                <a href=""></a>
+            </div>
+            <div class="tarjeta-2">
+                <img src="imagenes/tutoriales-img.jpg" alt="">
+                <h4>Plataforma de tutoriales Interactivos</h4>
+                <p>Una plataforma de tutoriales interactivos debe ofrecer una amplia gama de temas y cursos para satisfacer las diversas necesidades e intereses de los usuarios. Esto podría incluir programación, diseño gráfico, marketing digital, idiomas, música, cocina, y mucho más.</p>
+                <a href=""></a>
+            </div>
+            <div class="tarjeta-3">
+                <img src="imagenes/blog-personal-img.jpg" alt="">
+                <h4>Blog Personal</h4>
+                <p>La capacidad de crear y publicar entradas es fundamental en un blog personal. Los usuarios deben poder escribir y formatear sus publicaciones utilizando un editor de texto enriquecido que admita diferentes tipos de contenido, como texto, imágenes, videos, enlaces y más.</p>
+                <a href=""></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- tercera seccion "Servicios" -->
+    <section class="seccion-3" id="servicios">
+        <div class="formulario">
+            <form action="" class="form">
+                <h1>Servicios</h1>
+    
+                <div class="column">
+                    <div class="input-box">
+                        <input type="text" placeholder="Nombres" 
+                        required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Apellidos" 
+                        required>
+                    </div>
+                </div>
+    
+                <div class="column">
+                    <div class="input-box">
+                        <input type="text" placeholder="Empresa" 
+                        required>
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Número de teléfono" 
+                        required>
+                    </div>
+                </div>
+    
+                <div class="input-box">
+                    <input type="email" placeholder="Correo Electrónico" 
+                    required>
+                </div>   
+    
+                <button class="btn" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <!-- pie de pagina -->
+    <footer id="contacto">
+        <div class="redes-sociales">
+            <div class="facebook">
+                <a href="https://www.facebook.com/"><img src="imagenes/facebook.png" alt=""></a>
+            </div>
+            <div class="instagram">
+                <a href="https://www.instagram.com/"><img src="imagenes/instagram.png" alt=""></a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/"><img src="imagenes/linkedin.png" alt=""></a>
+            </div>
+        </div>
+        <hr>
+        <center>
+          <h5>laurabornacelli02@gmail.com</h5>
+          <h5>3106322499</h5>
+          <h5>calle 25 #26-100</h5>
+        </center>
+    </footer>
+    <div class="scrol">
+
+    </div>
+    <script src="menu.js"></script>
+</body>
+</html>
